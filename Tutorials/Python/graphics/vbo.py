@@ -9,9 +9,9 @@ class VBO:
     def __init__(self, context):  # where context is the ModernGL context
         self.vertices = np.array([
             # positions        # colors
-            -0.5, -0.5, 0.0,   1.0, 0.5, 0.2, #1.0, 0.0, 0.0,  # bottom left, 
-             0.5, -0.5, 0.0,   1.0, 0.5, 0.2, #0.0, 1.0, 0.0,  # bottom right, 
-             0.0,  0.5, 0.0,   1.0, 0.5, 0.2, #0.0, 0.0, 1.0,  # top, 
+            -0.5, -0.5, 0.0,   1.0, 0.0, 0.0,  # bottom left, 
+             0.5, -0.5, 0.0,   0.0, 1.0, 0.0,  # bottom right, 
+             0.0,  0.5, 0.0,   0.0, 0.0, 1.0,  # top, 
         ], dtype='f4') # 32-bit float
         self.vbo = context.buffer(self.vertices) # Create a buffer object
 

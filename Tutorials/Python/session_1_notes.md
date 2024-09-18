@@ -57,12 +57,12 @@ The fragment shader runs for each pixel (fragment) that will be drawn to the scr
 
 ## Vertex and Fragment Shaders
 
-The vertex and fragment shaders work together to define how our triangle is drawn. Specifically, they:
+The vertex and fragment shaders work together to define how our triangle is drawn. Specifically:
 
 1. The vertex shader processes each vertex of our triangle, setting its position and passing along its color
 2. OpenGL uses these processed vertices to determine which pixels on the screen are inside the triangle.
 3. For each of these pixels, the fragment shader runs, interpolating the color values from the vertices and setting the final color of the pixel.
-4. 
+ 
 
 ## VAO (Vertex Array Object) Class
 

@@ -1,6 +1,6 @@
 # Python ModerGL Tutorials
 
-This tutorial introduces the basics of programming with OpenGL for Penn State's CMPSC 458: Fundamentals of Computer Graphics course (Fall 2024). Note that this directory is specifically for Python users, though we encourage students to look at the C++ tutorial as well as many of the underlying concepts are the same.
+This tutorial introduces the basics of programming with OpenGL for Penn State's CMPSC 458: Fundamentals of Computer Graphics course (Fall 2024). Note that this directory is specifically for Python users, though we encourage students to look at the C++ tutorial as well since many of the underlying concepts are the same.
 
 ## Using Python
 
